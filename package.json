@@ -1,0 +1,8 @@
+{
+  "name": "vmux-sandbox",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run build -w @repo/shared && npm run build -w @cloudflare/sandbox"
+  }
+}
